@@ -67,15 +67,22 @@ form button {
     cursor: pointer;
 }
 
-#logo {
-    width: 100%; /* Adjust the size as needed */
-    height: auto;
+/* Default: show the desktop logo */
+#logo-desktop {
     display: block;
-    margin: 0 auto; /* Center the logo */
 }
 
-header {
-    text-align: center;
-    padding: 20px;
-    background-color: #f1f1f1; /* Adjust the background color as needed */
+#logo-mobile {
+    display: none;
+}
+
+/* Mobile devices (max-width can be adjusted as needed) */
+@media (max-width: 768px) {
+    #logo-desktop {
+        display: none;
+    }
+
+    #logo-mobile {
+        display: block;
+    }
 }
