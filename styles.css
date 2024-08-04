@@ -66,3 +66,16 @@ form button {
     border: none;
     cursor: pointer;
 }
+
+#logo {
+    width: 150px; /* Adjust the size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the logo */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1; /* Adjust the background color as needed */
+}
