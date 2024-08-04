@@ -68,7 +68,7 @@ form button {
 }
 
 #logo {
-    width: 450px; /* Adjust the size as needed */
+    width: 100%; /* Adjust the size as needed */
     height: auto;
     display: block;
     margin: 0 auto; /* Center the logo */
