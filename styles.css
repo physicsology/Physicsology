@@ -77,7 +77,7 @@ form button {
 }
 
 /* Mobile devices (max-width can be adjusted as needed) */
-@media (max-width: 768px) {
+@media (max-width: 100%) {
     #logo-desktop {
         display: none;
     }
