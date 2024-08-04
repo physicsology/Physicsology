@@ -68,21 +68,17 @@ form button {
 }
 
 /* Default: show the desktop logo */
-#logo-desktop {
-    display: block;
+/* Existing CSS */
+
+#logo-desktop, #logo-mobile {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Fit image within the container */
 }
 
-#logo-mobile {
-    display: none;
-}
-
-/* Mobile devices (max-width can be adjusted as needed) */
-@media (max-width: 100%) {
-    #logo-desktop {
-        display: none;
-    }
-
-    #logo-mobile {
-        display: block;
+@media (max-width: 768px) {
+    #logo-desktop, #logo-mobile {
+        width: 80%; /* Adjust for smaller screens */
     }
 }
+    #
