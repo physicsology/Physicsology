@@ -67,18 +67,3 @@ form button {
     cursor: pointer;
 }
 
-/* Default: show the desktop logo */
-/* Existing CSS */
-
-#logo-desktop, #logo-mobile {
-    width: 100%; /* Full width of the container */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: contain; /* Fit image within the container */
-}
-
-@media (max-width: 768px) {
-    #logo-desktop, #logo-mobile {
-        width: 80%; /* Adjust for smaller screens */
-    }
-}
-    #
